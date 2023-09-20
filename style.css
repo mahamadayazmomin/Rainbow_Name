@@ -1,0 +1,14 @@
+.rainbow{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size:128px;
+    color:transparent;
+    background: linear-gradient(270deg,#1e5799,#2ce0bf,#76dd2c,#dba62b,#ff1493,#1e5799);
+    animation:rainbow 64s linear infinite;
+    background-size: 60% 100%;
+    -webkit-background-clip:text;
+    text-align: center;
+  }
+  @keyframes rainbow{
+    0%{background-position-x:0}
+    to{background-position-x:10240px}
+  }
